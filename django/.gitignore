@@ -1,0 +1,37 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+
+# Django related
+*.log
+*.pot
+*.pyc
+*.sqlite3
+*.pyo
+*.swp
+*.sql
+__init__.py
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Python Virtual Environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE specific files (e.g., VSCode)
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore migrations if you don't want to commit them
+**/migrations/
+
+# Ignore local settings (you might adjust this depending on your setup)
+django_dual_db/django_dual_db/local_settings.py
